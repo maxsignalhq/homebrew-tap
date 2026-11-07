@@ -5,21 +5,21 @@ class Sakshi < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.3.0/sakshi-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "75d7e9c38cd95c027de8796c07db1f2871cffed5a82b02815e18f9843317c0e1"
+      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.4.0/sakshi-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "bdf99de36d8b47dd73aec308f163274329276a9d2c54dd47ed5e5e78c9cebacb"
     else
-      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.3.0/sakshi-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e0d799cff7ab59b20fb88460089ed69e87d1a8c42d169dfa9d22a8baa9b2033c"
+      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.4.0/sakshi-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "faa692b806638dac1f52959c1ca1d1021eb76a16ae0d688bdae413cb3c7ad5dc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.3.0/sakshi-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3718d46aae750940fa822dae1931488b59eb71f5775dfeb528506de74afd248e"
+      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.4.0/sakshi-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "56c11272bcffe957469c39ff49716484df2bf695d1971f2e1218b97472698530"
     else
-      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.3.0/sakshi-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c90fa32c8f3f0da0dba072d1bed5c45b8c375823576ed5828c54213d7aac75c6"
+      url "https://github.com/maxsignalhq/Sakshi/releases/download/v0.4.0/sakshi-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3a4f9772ace9319296d90ae38fb7d3d299bac32c7d29c3d575ee7839e3837d8f"
     end
   end
 
